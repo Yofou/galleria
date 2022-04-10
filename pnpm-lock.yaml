@@ -5,12 +5,14 @@ specifiers:
   '@astrojs/svelte': ^0.0.2
   '@astrojs/tailwind': ^0.1.0
   astro: ^1.0.0-beta.5
+  macy: ^2.5.1
   svelte: ^3.47.0
   tailwindcss: ^3.0.23
 
 dependencies:
   '@astrojs/node': 0.0.2
   '@astrojs/svelte': 0.0.2_svelte@3.47.0
+  macy: 2.5.1
   svelte: 3.47.0
   tailwindcss: 3.0.23
 
@@ -2263,6 +2265,11 @@ packages:
     resolution: {integrity: sha512-AmXqneQZL3KZMIgBpaPTeI6pfwh+xQ2vutMsyqOu1TBdEXFZgpG/80wuJ531w2ZN7TI0/oc8CPxzh/DKQudZqg==}
     engines: {node: '>=12'}
     dev: true
+
+  /macy/2.5.1:
+    resolution: {integrity: sha512-+y4WYyh3rl4G8UczZP30pXxhLQRZ941QcaDmWoGefzUBXdwNW8TOhjjN1g5i/VG3SmiSsHgpjVXhlnZ84P2QMw==}
+    engines: {node: '>= 0.9'}
+    dev: false
 
   /magic-string/0.25.9:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}

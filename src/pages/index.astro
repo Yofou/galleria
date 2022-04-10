@@ -1,8 +1,10 @@
 ---
 	import Layout from "@/layouts/base.astro"
 	import NavBar from "@/components/navbar.svelte"
+	import Main from "@/components/container.svelte"
 ---
 
 <Layout>
 	<NavBar />
+	<Main client:idle />
 </Layout>
