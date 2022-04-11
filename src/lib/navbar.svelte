@@ -8,5 +8,5 @@
 	<a href="/">
 		<img src="/shared/logo.svg" alt="">
 	</a>
-	<a class="text-grey-900 text-link-1 uppercase" href={ path === "/" ? "/1" : "/" }>{ path === "/" ? "Start Slideshow" : "Stop Slideshow"}</a>
+	<a class="transition-colors text-grey-900 hover:text-black text-link-1 uppercase" href={ path === "/" ? "/1" : "/" }>{ path === "/" ? "Start Slideshow" : "Stop Slideshow"}</a>
 </nav>
