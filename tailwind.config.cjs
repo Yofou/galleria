@@ -1,7 +1,7 @@
 const plugin = require("tailwindcss/plugin")
 
 module.exports = {
-	content: ['./src/**/*.{astro,html,js,jsx,svelte,ts,tsx,vue}'],
+	content: ['./src/**/*.{svelte,html}'],
 	theme: {
 		colors: {
 			black: "#000000",
