@@ -1,9 +1,10 @@
 <script lang="ts">
-	import items from "$lib/items"
-	import ArtLink from "$lib/index/art-link.svelte"
+	import items from '$lib/items';
+	import ArtLink from '$lib/index/art-link.svelte';
+	import { fade } from 'svelte/transition';
 </script>
 
-<main class="w-full mt-10">
+<main in:fade={{ delay: 1000 }} class="w-full mt-10">
 	{#each items as art, index}
 		<ArtLink item={art} href="/{index + 1}" />
 	{/each}

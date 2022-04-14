@@ -1,12 +1,16 @@
 <script lang="ts">
-	import NavBar from "$lib/navbar.svelte"
+	import NavBar from '$lib/navbar.svelte';
+	import { page } from '$app/stores';
 </script>
 
 <NavBar />
-<slot />
+{#key $page.url.pathname === '/'}
+	<slot />
+{/key}
 
 <style global>
-	html, body {
+	html,
+	body {
 		@apply w-full h-full;
 	}
 

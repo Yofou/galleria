@@ -14,6 +14,11 @@ module.exports = {
 		},
 		fontFamily: {
 			libre: ['Libre Baskerville', 'serif']
+		},
+		extend: {
+			screens: {
+				md: '1050px'
+			}
 		}
 	},
 	plugins: [
