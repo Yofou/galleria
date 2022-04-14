@@ -25,11 +25,11 @@
 
 {#if isOpen}
 	<div
-		class="fixed z-20 top-0 left-0 w-full h-full bg-black/[.85] grid grid-cols-[minmax(0,max-content)] place-content-center grid-flow-row gap-10 px-12"
+		class="fixed z-20 top-0 left-0 w-full h-full bg-black/[.85] grid grid-cols-[minmax(0,max-content)] justify-center grid-flow-row gap-10 px-12"
 	>
 		<button
 			on:click={toggle}
-			class="transition-colors text-white hover:text-white/25 text-link-1 !text-[14px] uppercase justify-self-end"
+			class="transition-colors self-end text-white hover:text-white/25 text-link-1 !text-[14px] uppercase justify-self-end"
 			>close</button
 		>
 		<img class="content-[var(--bg-url)]" alt="" />
