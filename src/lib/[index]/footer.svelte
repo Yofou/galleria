@@ -26,7 +26,7 @@
 
 <footer
 	out:slideOut
-	class="relative w-[calc(100%+80px)] bg-white px-10 py-6 -ml-10 grid grid-rows-[max-content,max-content] grid-cols-[max-content,1fr,max-content] gap-x-10 gap-y-2 items-center border-t border-grey-600"
+	class="relative w-[calc(100%+80px)] bg-white px-10 py-6 -ml-10 grid grid-rows-[max-content,max-content] grid-cols-[minmax(0,max-content),1fr,max-content] gap-x-10 gap-y-2 items-center border-t border-grey-600"
 >
 	<h1 class="text-h3 text-black col-start-1 col-end-2">{item.name}</h1>
 	<p class="text-h5 text-black/75 col-start-1 col-end-2 row-start-2 row-end-3">
