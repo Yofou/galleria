@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { clickOutside } from 'svelte-use-click-outside';
 	let isOpen = false;
 	const toggle = () => (isOpen = !isOpen);
 
@@ -32,6 +33,6 @@
 			class="transition-colors self-end text-white hover:text-white/25 text-link-1 !text-[14px] uppercase justify-self-end"
 			>close</button
 		>
-		<img class="content-[var(--bg-url)]" alt="" />
+		<img use:clickOutside={toggle} class="content-[var(--bg-url)]" alt="" />
 	</div>
 {/if}
