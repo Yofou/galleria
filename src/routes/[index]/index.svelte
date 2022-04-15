@@ -22,7 +22,7 @@
 				{item}
 			/>
 			<img
-	   class="w-16 h-16 sm:w-32 sm:h-32 absolute top-[calc(100%+var(--top,0)-55px)] sm:top-[var(--top)] md:bottom-0 md:top-[unset] sm:right-[-30px] sm:translate-x-full md:translate-y-1/2"
+				class="w-16 h-16 sm:w-32 sm:h-32 absolute top-[calc(100%+var(--top,0)-55px)] sm:top-[var(--top)] md:bottom-0 md:top-[unset] sm:right-[-30px] sm:translate-x-full md:translate-y-1/2"
 				class:hidden={!height}
 				style:--top={height && `${height}px`}
 				src={item.artist.image}
@@ -34,7 +34,11 @@
 	<section
 		class="grid grid-cols-[minmax(0,max-content)] grid-rows-[max-content,max-content,1fr] overflow-x-hidden"
 	>
-		<h1 class="text-display justify-self-end sm:justify-self-start !text-[100px] sm:!text-[200px] text-grey-300">{item.year}</h1>
+		<h1
+			class="text-display justify-self-end sm:justify-self-start !text-[100px] sm:!text-[200px] text-grey-300"
+		>
+			{item.year}
+		</h1>
 		<p
 			class="text-grey-900 transform translate-y-[-50px] sm:translate-y-[-35px] ml-0 sm:ml-[150px] md:ml-0 text-body w-full max-w-[457px] md:max-w-[350px]"
 		>
