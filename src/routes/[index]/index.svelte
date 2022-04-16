@@ -10,6 +10,10 @@
 	let height: number | undefined;
 </script>
 
+<svelte:head>
+	<title>Galleria | {item.name}</title>
+</svelte:head>
+
 <main
 	class="grid grid-flow-row max-w-[1440px] md:grid-cols-[minmax(0,max-content),minmax(0,1fr)] justify-self-center gap-16 md:gap-7 col-start-1 col-end-2 row-start-2 row-end-3 w-full pt-[100px]"
 >

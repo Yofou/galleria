@@ -4,6 +4,10 @@
 	import { fade } from 'svelte/transition';
 </script>
 
+<svelte:head>
+	<title>Galleria</title>
+</svelte:head>
+
 <main in:fade={{ delay: 1000 }} class="w-full mt-10">
 	{#each items as art, index}
 		<ArtLink item={art} href="/{index + 1}" />
